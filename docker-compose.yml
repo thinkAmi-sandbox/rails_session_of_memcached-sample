@@ -1,0 +1,14 @@
+version: "3"
+services:
+  default:
+    image: memcached
+    ports:
+      - 11211:11211
+  cache:
+    image: memcached
+    ports:
+      - 17001:11211
+  session:
+    image: memcached
+    ports:
+      - 17002:11211
