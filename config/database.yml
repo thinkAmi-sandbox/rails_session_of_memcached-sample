@@ -39,3 +39,7 @@ memd_session:
 memd_session_port:
   <<: *default
   database: db/development.sqlite3
+
+session_cache_store:
+  <<: *default
+  database: db/development.sqlite3
