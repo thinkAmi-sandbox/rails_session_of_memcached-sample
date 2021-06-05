@@ -1,0 +1,5 @@
+pymemcache==3.4.3
+# python-memcached-stats (from github)
+# https://stackoverflow.com/questions/16584552/how-to-state-in-requirements-txt-a-direct-github-source
+git+https://github.com/dlrust/python-memcached-stats@7599993eb62fcb7af983a1eb5e89a749adef818d#egg=python-memcached-stats
+six==1.16.0
